@@ -27,19 +27,24 @@ You can install them with `pip`:
 
 ```bash
 pip install requests beautifulsoup4
+```
+
 Configuration
 Open the golden_pages_scraper.py file and modify the following two variables in the main() function to suit your needs:
 
+## Configs
 MAX_PAGES: Set this to the maximum number of search results pages you want to scrape. Be sure to check the total pages for your search query on the Golden Pages website.
 
 base_url_pattern: Change the category at the end of this URL to search for different types of businesses (e.g., change plumbers to electricians).
 
-Running the Script
+## Running the Script
 Once configured, simply run the script from your terminal:
 
-Bash
-
+```bash
 python golden_pages_scraper.py
+```
+
+
 The script will print its progress as it works. A file named golden_pages_data.json will be created in the same directory upon completion.
 
 📂 Output Format
