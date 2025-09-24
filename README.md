@@ -50,8 +50,7 @@ The script will print its progress as it works. A file named golden_pages_data.j
 📂 Output Format
 The final output is a JSON file containing a list of dictionaries. Each dictionary represents a single business and includes the following details:
 
-JSON
-
+```bash
 [
   {
     "name": "Acme Plumbers Dublin",
@@ -66,3 +65,5 @@ JSON
     "website": "[https://www.citypipes.ie](https://www.citypipes.ie)"
   }
 ]
+```
+
